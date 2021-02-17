@@ -1,0 +1,86 @@
+body {
+    background-color: gainsboro;
+    font-family: "Roboto Mono", monospace;
+}
+
+header, main {
+    text-align: center;
+}
+
+h2 {
+    color: rebeccapurple;
+}
+
+table {
+    border: solid 2px darkorchid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reference thead {
+    font-weight: bold;
+    background-color:plum ;
+}
+
+.reference tbody {
+    text-align: left;
+}
+
+.reference tbody td {
+    border-top: 1px solid darkorchid;
+    padding-right: 20px;
+}
+
+#tagBackground, #attributeBackground{
+    background-color: white;
+}
+
+#visualizationsDisplayWrapper {
+    display: inline-flex;
+}
+
+.tableVisualization {
+    width: 200px;
+    height: 200px;
+}
+
+#tableVisualizationMargin {
+    margin-right: 50px;
+}
+
+#theadVisualization {
+    background-color: rgb(90, 175, 209);
+    height: 50px;
+}
+
+#tbodyVisualization {
+    background-color: rgb(78, 201, 78);
+}
+
+#tfootVisualization {
+    background-color: coral;
+    height: 50px;
+}
+
+.thVisualization {
+    background-color: rgb(90, 175, 209);
+    height: 50px;
+}
+
+.trVisualization {
+    background-color: rgba(78, 201, 78, 0.75);
+    height: 50px;
+}
+
+.tdVisualization {
+    background-color: rgba(78, 201, 78, 0.5);
+}
+
+#rowspanVisualization {
+    background-color: rgb(78, 201, 78);
+}
+
+#colspanVisualization {
+    background-color: coral;
+    height: 50px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cheat Sheet Project & Visualizations</title>
+    <link href="./css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Table Reference & Visualizations</h1>
+    </header>
+    <main>
+        <section class="reference">
+            <h2>Table Tags</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tag</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span id="tagBackground">&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>Define a table</td>
+                    </tr>
+                    <tr>
+                        <td><span id="tagBackground">&lt;tr&gt;</span></td>
+                        <td>Table Row</td>
+                        <td>Define a table row</td>
+                    </tr>
+                    <tr>
+                        <td><span id="tagBackground">&lt;td&gt;</span></td>
+                        <td>Table Data</td>
+                        <td>Define a table cell</td>
+                    </tr>
+                    <tr>
+                        <td><span id="tagBackground">&lt;th&gt;</span></td>
+                        <td>Table Header Cell</td>
+                        <td>Define a table header cell</td>
+                    </tr>
+                    <tr>
+                        <td><span id="tagBackground">&lt;thead&gt;</span></td>
+                        <td>Table Header</td>
+                        <td>Define a group of table header</td>
+                    </tr>
+                    <tr>
+                        <td><span id="tagBackground">&lt;tbody&gt;</span></td>
+                        <td>Table Body</td>
+                        <td>Define a group of table body</td>
+                    </tr>
+                    <tr>
+                        <td><span id="tagBackground">&lt;tfoot&gt;</span></td>
+                        <td>Table Footer</td>
+                        <td>Define a group of table footer</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="reference">
+            <h2>Table Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span id="attributeBackground">colspan</span></td>
+                        <td>Column Span</td>
+                        <td>Defines the number of columns a cell should span</td>
+                    </tr>
+                    <tr>
+                        <td><span id="attributeBackground">rowspan</span></td>
+                        <td>Row Span</td>
+                        <td>Defines the number of rows a cell should span</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Tables - Visualizations</h2>
+            <div id="visualizationsDisplayWrapper">
+                <table class="tableVisualization" id="tableVisualizationMargin">
+                    <thead>
+                        <td id="theadVisualization">&lt;thead&gt;</td>
+                    </thead>
+                    <tbody>
+                        <td id="tbodyVisualization">&lt;tbody&gt;</td>
+                    </tbody>
+                    <tfoot>
+                        <td id="tfootVisualization">&lt;tfoot&gt;</td>
+                    </tfoot>
+                </table>
+                <table class="tableVisualization">
+                    <thead>
+                        <td class="thVisualization">&lt;th&gt;</td>
+                        <td class="thVisualization">&lt;th&gt;</td>
+                        <td class="thVisualization">&lt;th&gt;</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="2" id="rowspanVisualization">rowspan="2"</td>
+                            <td colspan="2" class="trVisualization">&lt;tr&gt;</td>
+                        </tr>
+                        <tr>
+                            <td class="tdVisualization">&lt;td&gt;</td>
+                            <td class="tdVisualization">&lt;td&gt;</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="3" id="colspanVisualization">colspan="3"</td>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact:
+            <a href="https://github.com/Piotr-Socha" target="_blank">
+                <img src="./images/github-logo.png" alt="GitHub Logo" width="20px" height="20px">
+            </a>
+        </p>
+        <p>Copyright &#169 2021 Piotr-Socha</p>
+    </footer>
+</body>
+
+</html>
