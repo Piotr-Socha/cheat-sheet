@@ -1,10 +1,17 @@
 body {
     background-color: gainsboro;
     font-family: "Roboto Mono", monospace;
+    position: relative;
+    min-height: 100vh;
 }
 
-header, main {
+header {
     text-align: center;
+}
+
+main {
+    text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -36,9 +43,11 @@ table {
 }
 
 footer {
-   position:relative;
-   bottom:0;
-}
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 0.5rem;
+  }
 
 #visualizationsDisplayWrapper {
     display: inline-flex;
